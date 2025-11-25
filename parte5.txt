@@ -1,0 +1,18 @@
+Método 1 - Análisis de patrones
+
+Algunos modelos de IA generan código ocn algunos patrones específicos por ejemplo los comentarios
+
+Método 2 - Detección po historial de desarrollo
+En esta seria verificar por el historial de git, también poniendo a prueba a la persona haciendo preguntas sobre el código
+
+
+ Por que no es posible asegurar al 100% la autoría ?
+
+Una de las posibilidades que existe es que como programador se puede imitar a un código realizado por una IA, otra de las razones es que el código no huella digital
+
+Politicas razonables
+No prohibir la IA, ya que esta como herramienta de trabajo es muy útil, es mejor educar a como podemos potenciar nuestro conocimiento con ayuda de esta y también educar en la parte de como la ia nos puede ayudar a ser personas mas eficientes sin depender al 100% de esta
+
+Politica 1
+como en el primer punto, en el cual se evalúa el dominio del tema por parte de la persona, realizando preguntas o retando a modificar el código y explicar que hace
+* si la persona uso IA en su trabajo preguntar sobre en que parte la uso y si entiende el código generado por esta
