@@ -14,5 +14,15 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
          
+      - name: Super-linter
+        uses: super-linter/super-linter@v8.1.0 
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          RUN_LOCAL: true  
+          DEFAULT_BRANCH: main
+          VALIDATE_JAVA: true
+          FILTER_REGEX_INCLUDE: ^src/
+          SAVE_SUPER_LINTER_SUMMARY: true
+          SAVE_SUPER_LINTER_OUTPUT: true
       - name: ejecutar tests
         run: mvn test
